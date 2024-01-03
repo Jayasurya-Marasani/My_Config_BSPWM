@@ -1,0 +1,716 @@
+;==========================================================
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;==========================================================
+[global/wm]
+margin-top = 0
+margin-bottom = 2
+margin-left = 0
+margin-right = 0
+;==========================================================
+
+[settings]
+;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
+throttle-output = 5
+throttle-output-for = 10
+screenchange-reload = true
+compositing-background = over
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+format-foreground = #FF0000
+format-background = #00FF00
+format-underline =
+format-overline =
+format-spacing =
+format-padding =
+format-margin =
+format-offset =
+;==========================================================
+
+[colors]
+background = ${MonokaiPro.background}
+foreground = ${MonokaiPro.foreground}
+color0     = ${MonokaiPro.color0}
+color1     = ${MonokaiPro.color1}
+color2     = ${MonokaiPro.color2}
+color3     = ${MonokaiPro.color3}
+color4     = ${MonokaiPro.color4}
+color5     = ${MonokaiPro.color5}
+color6     = ${MonokaiPro.color6}
+color7     = ${MonokaiPro.color7}
+color8     = ${MonokaiPro.color8}
+color9     = ${MonokaiPro.color9}
+color10    = ${MonokaiPro.color10}
+color11    = ${MonokaiPro.color11}
+color12    = ${MonokaiPro.color12}
+color13    = ${MonokaiPro.color13}
+color14    = ${MonokaiPro.color14}
+color15    = ${MonokaiPro.color15}
+alert      = ${MonokaiPro.color1}
+
+[DoomOne]
+background = #282c34
+foreground = #bbc2cf
+color0     = #1c1f24
+color1     = #ff6c6b
+color2     = #98be65
+color3     = #da8548
+color4     = #51afef
+color5     = #c678dd
+color6     = #5699af
+color7     = #abb2bf
+color8     = #5b6268
+color9     = #da8548
+color10    = #4db5bd
+color11    = #ecbe7b
+color12    = #3071db
+color13    = #a9a1e1
+color14    = #46d9ff
+color15    = #dfdfdf
+
+[Dracula]
+background = #282a36
+foreground = #f8f8f2
+color0     = #000000
+color1     = #ff5555
+color2     = #50fa7b
+color3     = #f1fa8c
+color4     = #bd93f9
+color5     = #ff79c6
+color6     = #8be9fd
+color7     = #bfbfbf
+color8     = #4d4d4d
+color9     = #ff6e67
+color10    = #5af78e
+color11    = #f4f99d
+color12    = #caa9fa
+color13    = #ff92d0
+color14    = #9aedfe
+color15    = #e6e6e6
+
+[GruvboxDark]
+background = #282828
+foreground = #ebdbb2
+color0     = #282828
+color1     = #cc241d
+color2     = #98971a
+color3     = #d79921
+color4     = #458588
+color5     = #b16286
+color6     = #689d6a
+color7     = #a89984
+color8     = #928374
+color9     = #fb4934
+color10    = #b8bb26
+color11    = #fabd2f
+color12    = #83a598
+color13    = #d3869b
+color14    = #8ec07c
+color15    = #ebdbb2
+
+[MonokaiPro]
+background = #2D2A2E
+foreground = #FCFCFA
+color0     = #403E41
+color1     = #FF6188
+color2     = #A9DC76
+color3     = #FFD866
+color4     = #FC9867
+color5     = #AB9DF2
+color6     = #78DCE8
+color7     = #FCFCFA
+color8     = #727072
+color9     = #FF6188
+color10    = #A9DC76
+color11    = #FFD866
+color12    = #FC9867
+color13    = #AB9DF2
+color14    = #78DCE8
+color15    = #FCFCFA
+
+[Nord]
+background = #2E3440
+foreground = #D8DEE9
+color0     = #3B4252
+color1     = #BF616A
+color2     = #A3BE8C
+color3     = #EBCB8B
+color4     = #81A1C1
+color5     = #B48EAD
+color6     = #88C0D0
+color7     = #E5E9F0
+color8     = #4C566A
+color9     = #BF616A
+color10    = #A3BE8C
+color11    = #EBCB8B
+color12    = #81A1C1
+color13    = #B48EAD
+color14    = #8FBCBB
+color15    = #ECEFF4
+
+[OceanicNext]
+background = #1b2b34
+foreground = #d8dee9
+color0     = #29414f
+color1     = #ec5f67
+color2     = #99c794
+color3     = #fac863
+color4     = #6699cc
+color5     = #c594c5
+color6     = #5fb3b3
+color7     = #65737e
+color8     = #405860
+color9     = #ec5f67
+color10    = #99c794
+color11    = #fac863
+color12    = #6699cc
+color13    = #c594c5
+color14    = #5fb3b3
+color15    = #adb5c0
+
+[Palenight]
+background = #292d3e
+foreground = #d0d0d0
+color0     = #292d3e
+color1     = #f07178
+color2     = #c3e88d
+color3     = #ffcb6b
+color4     = #82aaff
+color5     = #c792ea
+color6     = #89ddff
+color7     = #d0d0d0
+color8     = #434758
+color9     = #ff8b92
+color10    = #ddffa7
+color11    = #ffe585
+color12    = #9cc4ff
+color13    = #e1acff
+color14    = #a3f7ff
+color15    = #ffffff
+
+[SolarizedDark]
+background = #002b36
+foreground = #839496
+color0     = #073642
+color1     = #dc322f
+color2     = #859900
+color3     = #b58900
+color4     = #268bd2
+color5     = #d33682
+color6     = #2aa198
+color7     = #eee8d5
+color8     = #002b36
+color9     = #cb4b16
+color10    = #586e75
+color11    = #657b83
+color12    = #839496
+color13    = #6c71c4
+color14    = #93a1a1
+color15    = #fdf6e3
+
+[SolarizedLight]
+background = #fdf6e3
+foreground = #657b83
+color0     = #073642
+color1     = #dc322f
+color2     = #859900
+color3     = #b58900
+color4     = #268bd2
+color5     = #d33682
+color6     = #2aa198
+color7     = #eee8d5
+color8     = #002b36
+color9     = #cb4b16
+color10    = #586e75
+color11    = #657b83
+color12    = #839496
+color13    = #fdf6e3
+color14    = #93a1a1
+color15    = #6c71c4
+
+[TomorrowNight]
+background = #1d1f21
+foreground = #c5c8c6
+color0     = #1d1f21
+color1     = #cc6666
+color2     = #b5bd68
+color3     = #e6c547
+color4     = #81a2be
+color5     = #b294bb
+color6     = #70c0ba
+color7     = #373b41
+color8     = #666666
+color9     = #ff3334
+color10    = #9ec400
+color11    = #f0c674
+color12    = #81a2be
+color13    = #b77ee0
+color14    = #54ced6
+color15    = #282a2e
+
+
+[GruvboxLight]
+color0     = #fbf1c7
+color1     = #cc241d
+color2     = #98971a
+color3     = #d79921
+color4     = #458588
+color5     = #b16286
+color6     = #689d6a
+color7     = #7c6f64
+color8     = #928374
+color9     = #9d0006
+color10    = #79740e
+color11    = #b57614
+color12    = #076678
+color13    = #8f3f71
+color14    = #427b58
+color15    = #3c3836
+
+
+################################################################################
+############                  MAINBAR-BSPWM                         ############
+################################################################################
+
+[bar/example]
+;monitor = ${env:MONITOR}
+;monitor-fallback = HDMI1
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = false
+bottom = false
+separator =
+
+background = ${MonokaiPro.background}
+foreground = ${MonokaiPro.foreground}
+
+line-size = 2
+line-color = #f00
+
+wm-restack = bspwm
+;override-redirect = true
+
+; Enable support for inter-process messaging
+; See the Messaging wiki page for more details.
+enable-ipc = true
+
+border-size = 0
+;border-left-size = 0
+;border-right-size = 25
+;border-top-size = 0
+;border-bottom-size = 25
+border-color = #00000000
+
+padding-left = 1
+padding-right = 1
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Ubuntu:style=Bold:size=10;2"
+font-1 = "UbuntuMono Nerd Font:style=Bold:size=18;3"
+font-2 = "Font Awesome 6 Free:style=Regular:pixelsize=8;1"
+font-3 = "Font Awesome 6 Free:style=Solid:pixelsize=8;1"
+font-4 = "Font Awesome 6 Brands:pixelsize=20;1"
+font-5 = "FantasqueSansM Nerd Font:pixelsize=30;3"
+font-6 = "JetBrainsMonoMedium:pixelsize=10"
+font-7 = "HackNerdFont:pixelsize=10"
+font-8 = "NotoColorEmoji:fontformat=truetype:scale=14:antialias=false"
+font-9 = "IPAGothic:fontformat=truetype:pixelsize=10:antialias=false"
+font-10 = "JetBrainsMono Nerd Font:style=Regular:pixelsize=12;3"
+modules-left = launcher bspwm 
+modules-center = xwindow
+modules-right =  kernel network-networkmanager battery temperature2 cpu2 memory2 date powermenu
+
+tray-detached = false
+tray-offset-x = 0
+tray-offset-y = 0
+tray-position = right
+tray-padding = 4
+tray-maxsize = 20
+tray-scale = 1.0
+tray-background = ${colors.background}
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+
+################################################################################
+############                       MODULE BSPWM                     ############
+################################################################################
+
+[module/bspwm]
+type = internal/bspwm
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+pin-workspaces = true
+
+ws-icon-0 = "I;%{T1}cmd%{T-}"
+ws-icon-1 = "II;%{T1}www%{T-}"
+ws-icon-2 = "III;%{T1}dev%{T-}"
+ws-icon-3 = "IV;%{T1}doc%{T-}"
+ws-icon-4 = "V;%{T1}teams%{T-}"
+ws-icon-5 = "VI;%{T1}vid%{T-}"
+ws-icon-6 = "VII;%{T1}mus%{T-}"
+ws-icon-7 = "VIII;%{T1}kvm%{T-}"
+ws-icon-8 = "IX;%{T1}pic%{T-}"
+ws-icon-9 = "X;%{T1}vbox%{T-}"
+
+ws-icon-default = " "
+
+format = <label-state> <label-mode>
+
+label-focused = %icon%
+label-focused-foreground = ${colors.foreground}
+label-focused-background = ${colors.background}
+label-focused-underline= ${colors.color5}
+label-focused-padding = 1
+label-focused-margin = 2
+
+label-occupied = %icon%
+label-occupied-foreground = ${colors.foreground}
+label-occupied-background = ${colors.background}
+label-occupied-underline= ${colors.color2}
+label-occupied-padding = 1
+label-occupied-margin = 2
+
+label-urgent = %icon%
+label-urgent-foreground = ${colors.foreground}
+label-urgent-background = ${colors.alert}
+label-urgent-underline = ${colors.alert}
+label-urgent-padding = 1
+label-urgent-margin = 2
+
+label-empty = %icon%
+label-empty-foreground = ${colors.foreground}
+label-empty-background = ${colors.background}
+label-empty-padding = 1
+label-empty-margin = 2
+
+label-monocle = " [MONOCLE] "
+label-monocle-foreground = ${colors.color3}
+label-tiled = " [TILED] "
+label-tiled-foreground = ${colors.color3}
+label-fullscreen = " [FULLSCREEN] "
+label-fullscreen-foreground = ${colors.color3}
+label-floating = " (FLOATING) "
+label-floating-foreground = ${colors.color4}
+label-pseudotiled = " [PSEUDOTILED] "
+label-pseudotiled-foreground = ${colors.color3}
+label-locked = "  "
+label-locked-foreground = ${colors.foreground}
+label-sticky = "  "
+label-sticky-foreground = ${colors.foreground}
+label-private =  "     "
+label-private-foreground = ${colors.foreground}
+
+; Separator in between workspaces
+;label-separator = |
+;label-separator-padding = 10
+;label-separator-foreground = #ffb52a
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+
+
+[module/xwindow]
+;https://github.com/jaagr/polybar/wiki/Module:-xwindow
+type = internal/xwindow
+label = %title%
+label-maxlen = 50
+
+format-prefix = "*  "
+format-suffix = "  *"
+format-foreground = ${colors.color10}
+format-background = ${colors.background}
+format-margin = 2
+format-padding = 0
+format-underline = ${colors.color3}
+label-font = 11
+
+[module/apt-updates]
+type = custom/script
+exec = ~/.config/polybar/scripts/updates-apt.sh
+interval = 1000
+label = Updates: %output%
+format-prefix = "🗘 "
+format-prefix-foreground = ${colors.color2}
+format-foreground = ${colors.color2}
+format-background = ${colors.background}
+format-underline = ${colors.color2}
+format-margin = 2
+format-padding = 0
+
+[module/network-networkmanager]
+type = custom/script
+exec = ~/.config/polybar/scripts/network-networkmanager.sh
+tail = true
+format-prefix = "🌐"
+format-prefix-foreground = ${colors.color4}
+format-foreground = ${colors.color4}
+format-background = ${colors.background}
+format-underline = ${colors.color1}
+format-margin = 2
+format-padding = 0
+format-prefix-font = 9
+
+
+[module/updates-flatpak]
+type = custom/script
+exec = ~/.config/polybar/scripts/updates-flatpak.sh
+interval = 600
+label = Updates: %output%
+format-prefix = "@ "
+format-prefix-foreground = ${colors.color5}
+format-foreground = ${colors.color5}
+format-background = ${colors.background}
+format-underline = ${colors.color5}
+format-margin = 2
+format-padding = 0
+
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = false
+interval = 1024
+format-prefix = "🤖"
+format-prefix-foreground = ${colors.color9}
+format-foreground = ${colors.color9}
+format-background = ${colors.background}
+format-underline = ${colors.color7}
+format-margin = 2
+format-padding = 0
+format-prefix-font = 9
+
+
+
+[module/pavolume]
+type = custom/script
+tail = true
+label = %output%
+format-prefix = " 🔊 "
+format-prefix-foreground = ${colors.color5}
+exec = ~/.config/polybar/scripts/pavolume.sh --listen
+click-right = exec pavucontrol
+click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
+scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
+scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
+format-foreground = ${colors.color5}
+format-background = ${colors.background}
+format-underline = ${colors.color5}
+format-margin = 2
+format-padding = 0
+
+[module/volume]
+;https://github.com/jaagr/polybar/wiki/Module:-volume
+type = internal/volume
+format-volume = "<label-volume>  <bar-volume>"
+
+label-volume = " "
+label-volume-foreground = #40ad4b
+label-muted = muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #40ad4b
+bar-volume-foreground-1 = #40ad4b
+bar-volume-foreground-2 = #40ad4b
+bar-volume-foreground-3 = #40ad4b
+bar-volume-foreground-4 = #40ad4b
+bar-volume-foreground-5 = #40ad4b
+bar-volume-foreground-6 = #40ad4b
+bar-volume-gradient = false
+bar-volume-indicator = 
+bar-volume-indicator-font = 2
+bar-volume-fill = 
+bar-volume-fill-font = 2
+bar-volume-empty = 
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground}
+format-volume-foreground = ${colors.foreground}
+format-volume-background = ${colors.background}
+format-muted-prefix = "  "
+format-muted-prefix-foreground = "#ff0000"
+format-muted-foreground = ${colors.foreground}
+format-muted-background = ${colors.background}
+
+[module/date]
+;https://github.com/jaagr/polybar/wiki/Module:-date
+type = internal/date
+; Seconds to sleep between updates
+interval = 5
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = " %a %b %d, %Y"
+date-alt = " %a %b %d, %Y"
+time = %l:%M%p
+time-alt = %l:%M%p
+format-prefix = "📅"
+format-prefix-foreground = ${colors.color3}
+format-foreground = ${colors.color3}
+format-background = ${colors.background}
+format-underline = ${colors.color3}
+format-margin = 2
+format-padding = 0
+label = "%date% %time% "
+format-prefix-font = 9
+[module/launcher]
+type = custom/text
+
+content = 
+content-font = 4
+content-background = ${colors.background}
+content-foreground = ${colors.color10}
+
+click-left = ~/.config/rofi/launchers/type-2/launcher.sh
+click-right = launcher_t1
+
+[module/powermenu]
+type = custom/text
+
+content = Power
+content-background = ${colors.background}
+content-foreground = ${colors.color1}
+content-underline = ${colors.color6}
+click-left = ~/.config/rofi/powermenu/type-2/powermenu.sh
+click-right = powermenu_t1
+content-font = 1
+
+
+
+
+[module/cpu2]
+;https://github.com/jaagr/polybar/wiki/Module:-cpu
+type = internal/cpu
+interval = 1
+format-prefix = "💻"
+format-prefix-foreground = ${colors.color4}
+format = <label>
+format-foreground = ${colors.color4}
+format-background = ${colors.background}
+format-underline = ${colors.color4}
+format-margin = 2
+format-padding = 0
+label-font = 1
+format-prefix-font = 9
+label = Cpu %percentage:3%%
+
+[module/memory2]
+;https://github.com/jaagr/polybar/wiki/Module:-memory
+type = internal/memory
+interval = 1
+label = %percentage_used%%
+label-active-font = 2
+
+format = Mem <label>
+format-prefix = "💾"
+format-prefix-foreground = ${colors.color11}
+format-foreground = ${colors.color11}
+format-background = ${colors.background}
+format-underline = ${colors.color11}
+format-margin = 2
+format-padding = 0
+format-prefix-font = 9
+
+[module/battery]
+;https://github.com/jaagr/polybar/wiki/Module:-battery
+type = internal/battery
+battery = BAT0
+adapter = AC0
+full-at = 100
+
+format-charging = <animation-charging> <label-charging>
+label-charging = Bat: %percentage%%
+format-charging-foreground = ${colors.foreground}
+format-charging-background = ${colors.background}
+format-chaging-underline = #a3c725
+format-charging-underline = ${colors.color2}
+format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = Bat: %percentage%%
+format-discharging-underline = #c7ae25
+format-discharging-foreground = ${colors.foreground}
+format-discharging-background = ${colors.background}
+
+format-full-prefix = "🔋 "
+format-full-prefix-foreground = #a3c725
+format-full-underline = ${colors.color2}
+format-full-foreground = ${colors.foreground}
+format-full-background = ${colors.background}
+label-charging-foreground = ${colors.color5}
+label-discharging-foreground = ${colors.color5}
+ramp-capacity-0 = 🪫
+ramp-capacity-1 = 🪫
+ramp-capacity-2 = 🪫
+ramp-capacity-3 = 🪫
+ramp-capacity-4 = 🪫
+ramp-capacity-foreground = #c7ae25
+ramp-capacity-font = 9
+animation-charging-0 = 🔋
+animation-charging-1 = 🔋
+animation-charging-2 = 🔋
+animation-charging-3 = 🔋
+animation-charging-4 = 🔋
+animation-charging-foreground = #a3c725
+animation-charging-framerate = 750
+animation-charging-font = 9
+[module/temperature1]
+;https://github.com/jaagr/polybar/wiki/Module:-temperature
+type = internal/temperature
+thermal-zone = 0
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
+
+warn-temperature = 70
+format = <ramp> <label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+format-underline = #c72581
+format-warn = <ramp> <label-warn>
+format-warn-underline = #c7254f
+label = %temperature%
+label-warn =  %temperature%
+label-warn-foreground = #c7254f
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-foreground =${colors.foreground}
+
+[module/xbacklight]
+;https://github.com/jaagr/polybar/wiki/Module:-xbacklight
+type = internal/xbacklight
+format = <label> <bar>
+format-prefix = "   "
+format-prefix-foreground = ${colors.foreground}
+format-prefix-background = ${colors.background}
+format-prefix-underline = #9f78e1
+format-underline = #9f78e1
+label = %percentage%%
+bar-width = 10
+bar-indicator = 
+bar-indicator-foreground = #fff
+bar-indicator-font = 2
+bar-fill = 
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = 
+bar-empty-font = 2
+bar-empty-foreground = #fff
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+
+
