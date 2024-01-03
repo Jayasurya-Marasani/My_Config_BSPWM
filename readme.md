@@ -18,7 +18,7 @@ To use these configurations, first ensure that BSPWM and SXHKD are installed on 
 
 2. **Copy Configurations:**
     ```cp -r My_Config_BSPWM/* ~/.config/
-    
+
 ## Restart BSPWM
 After making changes to the configurations, you can apply them by either:
 - Restarting BSPWM: `bspc wm -r`
@@ -36,4 +36,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 - Thanks to the BSPWM community for the amazing window manager.
 - Inspired by various configurations found on [r/unixporn](https://www.reddit.com/r/unixporn/).
-```
