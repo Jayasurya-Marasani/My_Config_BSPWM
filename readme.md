@@ -15,9 +15,11 @@ To use these configurations, first ensure that BSPWM and SXHKD are installed on 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/My_Config_BSPWM.git
+   ```
 
 2. **Copy Configurations:**
     ```cp -r My_Config_BSPWM/* ~/.config/
+    ```
 
 ## Restart BSPWM
 After making changes to the configurations, you can apply them by either:
